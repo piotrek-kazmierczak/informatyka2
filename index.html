@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Właściwości tekstu w CSS</title>
+
+    <style>
+        /* ===============================
+           1. KOLOR TEKSTU
+        =============================== */
+        .kolor {
+            color: #1e90ff;
+        }
+
+        /* ===============================
+           2. WYRÓWNANIE TEKSTU
+        =============================== */
+        .wyrownanie {
+            text-align: center;
+        }
+
+        /* ===============================
+           3. DEKORACJA TEKSTU (SHORTHAND)
+        =============================== */
+        .dekoracja {
+            text-decoration: underline red solid 3px;
+        }
+
+        /* ===============================
+           4. TRANSFORMACJA TEKSTU
+        =============================== */
+        .transformacja {
+            text-transform: uppercase;
+        }
+
+        /* ===============================
+           5. ODSTĘPY W TEKŚCIE
+        =============================== */
+        .odstepy {
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            line-height: 1.8;
+            text-indent: 40px;
+        }
+
+        /* ===============================
+           6. CIEŃ TEKSTU (SHORTHAND)
+        =============================== */
+        .cien {
+            text-shadow: 2px 2px 5px gray;
+        }
+
+        /* Styl ogólny strony */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="kolor wyrownanie cien">
+        Właściwości tekstu w CSS
+    </h1>
+
+    <section>
+        <h2>1. Kolor</h2>
+        <p class="kolor">
+            Ten tekst ma ustawiony kolor za pomocą właściwości <strong>color</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Wyrównanie</h2>
+        <p class="wyrownanie">
+            Ten tekst jest wyśrodkowany przy użyciu <strong>text-align: center</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Dekoracja</h2>
+        <p class="dekoracja">
+            Ten tekst posiada dekorację wykonaną za pomocą shorthandu
+            <strong>text-decoration</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>4. Transformacja</h2>
+        <p class="transformacja">
+            Ten tekst został przekształcony na wielkie litery
+            przy użyciu <strong>text-transform</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>5. Odstępy</h2>
+        <p class="odstepy">
+            Ten akapit posiada zmienione odstępy między literami,
+            wyrazami, liniami oraz wcięcie pierwszej linii tekstu.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Cień</h2>
+        <p class="cien">
+            Ten tekst ma dodany cień przy użyciu właściwości
+            <strong>text-shadow</strong>.
+        </p>
+    </section>
+
+</body>
+</html>
